@@ -1,0 +1,36 @@
+{
+    "name": "ko.pagination",
+    "description": "A pagination library for KnockoutJS.",
+    "version": "0.1.0",
+    "author": "Roberto Yudice",
+    "contributors": [
+        {
+            "name": "Roberto Yudice",
+            "email": "roberto.yudice@gmail.com"
+        }
+    ],
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/ryudice/ko.pagination"
+    },
+    "keywords": [
+        "pagination",
+        "knockout",
+        "knockoutjs"
+    ],
+    "devDependencies": {
+        "grunt": "~0.4.1",
+        "grunt-cli": "~0.1.8",
+        "grunt-contrib-clean": "~0.4.1",
+        "grunt-contrib-compress": "~0.5.2",
+        "grunt-contrib-concat": "~0.3.0",
+        "grunt-contrib-jasmine": "~0.4.2",
+        "grunt-contrib-jshint": "~0.4.3",
+        "grunt-contrib-uglify": "~0.2.0",
+        "grunt-shell": "~0.2.2"
+    },
+    "scripts": {
+        "test": "grunt tests --verbose"
+    }
+}

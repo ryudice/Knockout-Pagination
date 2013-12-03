@@ -1,0 +1,11 @@
+ <div id="pager" class="ko-pager mright20 mtop10 floatR"  >
+        <a href="#"  data-bind="click: firstPage, visible: hasLessPages">First</a>
+       <a href="#"  data-bind="click: prevPage, visible: hasLessPages">Prev</a>
+       <!-- ko foreach: Pages() -->
+
+        <a href="#" data-bind="text: $data, click: $root.changePage, visible: $root.currentPage() !== $data">
+        </a><span data-bind="visible: $root.currentPage() === $data, text: $data "></span>
+        <!-- /ko -->
+        <a href="#" data-bind="click: nextPage, visible: hasMorePages">Next</a>
+        <a href="#"  data-bind="click: lastPage, visible: hasMorePages">Last</a>
+    </div>
